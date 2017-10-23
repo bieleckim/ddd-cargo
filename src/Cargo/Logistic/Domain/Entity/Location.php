@@ -1,6 +1,6 @@
 <?php
 
-namespace Cargo\Logistic\Domain;
+namespace Cargo\Logistic\Domain\Entity;
 
 class Location
 {

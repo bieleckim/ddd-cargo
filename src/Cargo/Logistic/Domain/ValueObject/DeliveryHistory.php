@@ -1,6 +1,6 @@
 <?php
 
-namespace Cargo\Logistic\Domain;
+namespace Cargo\Logistic\Domain\ValueObject;
 
 class DeliveryHistory
 {

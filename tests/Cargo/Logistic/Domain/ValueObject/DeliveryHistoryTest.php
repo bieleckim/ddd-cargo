@@ -1,8 +1,8 @@
 <?php
 
-namespace Cargo\Tests\Logistic\Domain;
+namespace Cargo\Tests\Logistic\Domain\ValueObject;
 
-use Cargo\Logistic\Domain\DeliveryHistory;
+use Cargo\Logistic\Domain\ValueObject\DeliveryHistory;
 use Cargo\Logistic\Domain\Entity\HandlingEvent;
 use PHPUnit\Framework\TestCase;
 

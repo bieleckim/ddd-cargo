@@ -1,8 +1,8 @@
 <?php
 
-namespace Cargo\Tests\Logistic\Domain;
+namespace Cargo\Tests\Logistic\Domain\Entity;
 
-use Cargo\Logistic\Domain\Location;
+use Cargo\Logistic\Domain\Entity\Location;
 use PHPUnit\Framework\TestCase;
 
 class LocationTest extends TestCase

@@ -2,18 +2,16 @@
 
 namespace Cargo\Logistic\Domain\Entity;
 
-use Cargo\Logistic\Domain\ValueObject\CargoId;
-
-class Cargo
+class CarrierMovement
 {
     private $id;
 
-    public function __construct(CargoId $id)
+    public function __construct(string $id)
     {
         $this->id = $id;
     }
 
-    public function getId(): CargoId
+    public function getId(): string
     {
         return $this->id;
     }

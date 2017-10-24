@@ -10,7 +10,13 @@ class LocationTest extends TestCase
     public function testLocation()
     {
         $id = 'sample-id';
-        $location = new Location($id);
+        $portCode = 'sample-port-code';
+        $cityName = 'sample-city-name';
+
+        $location = new Location($id, $portCode, $cityName);
+
         $this->assertEquals($id, $location->getId());
+        $this->assertEquals($portCode, $location->getPortCode());
+        $this->assertEquals($cityName, $location->getCityName());
     }
 }
